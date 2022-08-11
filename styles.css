@@ -119,4 +119,265 @@ header .follow a:hover{
     background-color:rgb(226, 214, 214);
     
 }
+@media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+    display: block;
+    }
+}
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+
+@media (max-width:991px){
+
+   header{
+       left:-120%;
+   }
+
+   #menu{
+       display: block;
+   }
+
+   header.toggle{
+    left:0%;
+   }
+
+   body{
+       padding:0;
+   }
+
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+ 
+ }
+
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .articals .row .counter .box{
+        width: 100%;
+    }
+ 
+    .blog .box-container .box{
+        width:100%;
+    }
+
+  
+
+    .help .row form{
+        margin:3rem 0;
+    }
+
+ }
+
+
+
+
+
+
+
+
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+ html {
+   background: #2F3238;
+ }
+ 
+ .feedback-button {
+   height: 40px;
+   border: solid 3px #CCCCCC;
+   background: #333;
+   width: 100px;
+   line-height: 32px;
+   -webkit-transform: rotate(-90deg);
+   font-weight: 600;
+   color: white;
+   transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   text-align: center;
+   font-size: 17px;
+   position: fixed;
+   right: -40px;
+   top: 45%;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   z-index: 999;
+ }
+ 
+ #feedback-main {
+   display: none;
+   float: left;
+   padding-top: 0px;
+ }
+ 
+ #feedback-div {
+   /* background-color: rgba(72, 72, 72, 0.4); */
+      background-color: rgb(226, 214, 214);
+   padding-left: 35px;
+   padding-right: 35px;
+   padding-top: 35px;
+   padding-bottom: 50px;
+   width: 450px;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top: 30px;
+   margin-left: -260px;
+   -moz-border-radius: 7px;
+   -webkit-border-radius: 7px;
+ }
+ 
+ .feedback-input {
+   color: #3c3c3c;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   border-radius: 0;
+   line-height: 22px;
+   background-color: #fbfbfb;
+   padding: 13px 13px 13px 54px;
+   margin-bottom: 10px;
+   width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 3px solid rgba(0, 0, 0, 0);
+ }
+ 
+ .feedback-input:focus {
+   background: #fff;
+   box-shadow: 0;
+   border: 3px solid #3498db;
+   color: #3498db;
+   outline: none;
+   padding: 13px 13px 13px 54px;
+ }
+ 
+ 
+ /* Icons ---------------------------------- */
+ 
+ #feedback-name {
+   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
+ 
+ #feedback-name:focus {
+   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+   background-size: 30px 30px;
+   background-position: 8px 5px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
+ 
+ #feedback-email {
+   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
+ 
+ #feedback-email:focus {
+   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
+ 
+ #feedback-comment {
+   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+   background-size: 30px 30px;
+   background-position: 11px 8px;
+   background-repeat: no-repeat;
+ }
+ 
+ #feedback-comment {
+   width: 100%;
+   height: 150px;
+   line-height: 150%;
+   resize: vertical;
+ }
+ 
+ input:hover,
+ #feedback-comment:hover,
+ input:focus,
+ #feedback-comment:focus {
+   background-color: white;
+ }
+ 
+ #feedback-button-blue {
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   float: left;
+   width: 100%;
+   border: #fbfbfb solid 4px;
+   cursor: pointer;
+   background-color: rgb(178, 59, 59);
+   color: white;
+   font-size: 24px;
+   padding-top: 22px;
+   padding-bottom: 22px;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   transition: all 0.3s;
+   margin-top: -4px;
+   font-weight: 700;
+ }
+ 
+ #feedback-button-blue:hover {
+   background-color: rgba(0, 0, 0, 0);
+   color: red;
+ }
+ 
+ .feedback-button-blue:hover {
+   color: red;
+ }
+ 
+ .feedback-ease {
+   width: 0px;
+   height: 74px;
+   background-color: #fbfbfb;
+   -webkit-transition: .3s ease;
+   -moz-transition: .3s ease;
+   -o-transition: .3s ease;
+   -ms-transition: .3s ease;
+   transition: .3s ease;
+ }
+ 
+ .feedback-submit:hover .feedback-ease {
+   width: 100%;
+   background-color: white;
+ }
+ 
+ @media only screen and (max-width: 580px) {
+   #feedback-div {
+     left: 3%;
+     margin-right: 3%;
+     width: 88%;
+     margin-left: 0;
+     padding-left: 3%;
+     padding-right: 3%;
+   }
+ }
 
