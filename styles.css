@@ -99,12 +99,34 @@ header .follow a{
     margin:0 .7rem;
     /* transform: scale(1.5);
     transition: 0.3s; */
+
 }
 
 header .follow a:hover{
     color:#d86060;
     transform: scale(1.3);
 	transition: .3s;
+  text-decoration: none;
+}
+
+@media (max-width:991px){
+header{
+  left:-120%;
+}
+
+header.active{
+  left:0%;
+}
+
+.navbar2 a{
+  font-size: 15px;
+}
+}
+
+@media (max-width:450px){
+header{
+  width:100%;
+}
 }
 
 .navbar2 {
@@ -469,8 +491,14 @@ ul{
   width: 30%;
   border: 2px solid pink;
   margin: 11px;
+  box-shadow: 1px 1px 7px 1px rgb(90, 89, 89);
 }
 
+.card-body{
+  padding: 9px;
+  background-color: aliceblue;
+  /* height: 33vh; */
+}
 #new-blogs
 {
   margin-top: 6%;
@@ -479,11 +507,21 @@ ul{
   flex-direction: column-reverse;
 }
 
-@media(max-width: 574px){
+@media(max-width: 1248px){
   .card{
     width: 44%;
 }
 }
 
+@media(max-width: 500px){
+  .card{
+    width: 90%;
+}
+}
 
+#title
+{
+font-size: 20px;
+color: #e91e63;
+}
 

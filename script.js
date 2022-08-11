@@ -37,8 +37,10 @@ xhr.onreadystatechange=()=>{
     
     <div class="card" ;">
   <div class="card-body">
-  <h6 class="card-subtitle mb-2 text-muted">${objectResponse[i].id}</h6>
-    <h5 class="card-title">${objectResponse[i].title}</h5>
+  <h6 class="card-subtitle mb-2 text-muted" style="color: #777;
+  font-size: 25px;
+  text-decoration: underline;">${objectResponse[i].id}</h6>
+    <h5 class="card-title" id="title" >${objectResponse[i].title}</h5>
     <p class="card-text">${objectResponse[i].body}</p>
    
   </div>
