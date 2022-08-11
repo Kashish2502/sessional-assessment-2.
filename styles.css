@@ -260,7 +260,7 @@ header .follow a:hover{
 
 .contact .row form .box:hover,
 .contact .row form textarea:hover{
- background-color: #c6c6c6;
+ background-color: #ffebee;
 
 }
 
@@ -455,11 +455,19 @@ ul{
   padding:2.5rem;
   text-align: center;
   color:#666;
-  background: #fff;
+  background: #c7a8a8;
 }
 
 .end-sec-footer span{
   color:var(--main-color);
+}
+
+
+
+.card {
+  width: 30%;
+  border: 2px solid pink;
+  margin: 11px;
 }
 
 
