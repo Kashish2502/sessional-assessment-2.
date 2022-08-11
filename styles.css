@@ -396,5 +396,13 @@ header .follow a:hover{
   .content h2{
     font-family: cursive ;
  }
+ .images img{
+    display: flexbox ;
+    height:236px;
+    width: 236px;
+    margin: 33px;
+    /* padding: 10px; */
+
+ }
  
 
