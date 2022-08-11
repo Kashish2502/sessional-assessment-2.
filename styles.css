@@ -131,6 +131,7 @@ header .follow a:hover{
 #ac{
     color: black;
     font-weight: bolder;
+    background: #fff6dd;
 }
 
 
@@ -470,6 +471,19 @@ ul{
   margin: 11px;
 }
 
+#new-blogs
+{
+  margin-top: 6%;
+  font-size: 31px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media(max-width: 574px){
+  .card{
+    width: 44%;
+}
+}
 
 
 
